@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="lua"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="msvc8"/>
+		<Option virtualFolders="CMake Files\;CMake Files\dependencies\;CMake Files\dependencies\lua\;CMake Files\dependencies\lua\src\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/User/Documents/GitHub/Learning_Lua/cmake-build-debug/dependencies/lua/src"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\User\Documents\GitHub\Learning_Lua\cmake-build-debug\dependencies\lua\src\Makefile VERBOSE=1 all"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\User\Documents\GitHub\Learning_Lua\cmake-build-debug\dependencies\lua\src\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\User\Documents\GitHub\Learning_Lua\cmake-build-debug\dependencies\lua\src\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\User\Documents\GitHub\Learning_Lua\cmake-build-debug\dependencies\lua\src\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lua">
+				<Option output="C:/Users/User/Documents/GitHub/Learning_Lua/cmake-build-debug/dependencies/lua/src/lua.lib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/User/Documents/GitHub/Learning_Lua/cmake-build-debug/dependencies/lua/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:/Users/User/Documents/GitHub/Learning_Lua/dependencies/lua/src"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\User\Documents\GitHub\Learning_Lua\cmake-build-debug\dependencies\lua\src\Makefile VERBOSE=1 lua"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\User\Documents\GitHub\Learning_Lua\cmake-build-debug\dependencies\lua\src\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\User\Documents\GitHub\Learning_Lua\cmake-build-debug\dependencies\lua\src\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\User\Documents\GitHub\Learning_Lua\cmake-build-debug\dependencies\lua\src\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lua/fast">
+				<Option output="C:/Users/User/Documents/GitHub/Learning_Lua/cmake-build-debug/dependencies/lua/src/lua.lib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/User/Documents/GitHub/Learning_Lua/cmake-build-debug/dependencies/lua/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:/Users/User/Documents/GitHub/Learning_Lua/dependencies/lua/src"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\User\Documents\GitHub\Learning_Lua\cmake-build-debug\dependencies\lua\src\Makefile VERBOSE=1 lua/fast"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\User\Documents\GitHub\Learning_Lua\cmake-build-debug\dependencies\lua\src\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\User\Documents\GitHub\Learning_Lua\cmake-build-debug\dependencies\lua\src\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\User\Documents\GitHub\Learning_Lua\cmake-build-debug\dependencies\lua\src\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/User/Documents/GitHub/Learning_Lua/dependencies/lua/src/lapi.c">
+			<Option target="lua"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Documents/GitHub/Learning_Lua/dependencies/lua/src/lapi.h">
+			<Option target="lua"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Documents/GitHub/Learning_Lua/dependencies/lua/src/lauxlib.c">
+			<Option target="lua"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Documents/GitHub/Learning_Lua/dependencies/lua/src/lauxlib.h">
+			<Option target="lua"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Documents/GitHub/Learning_Lua/dependencies/lua/src/lbaselib.c">
+			<Option target="lua"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Documents/GitHub/Learning_Lua/dependencies/lua/src/lbitlib.c">
+			<Option target="lua"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Documents/GitHub/Learning_Lua/dependencies/lua/src/lcode.c">
+			<Option target="lua"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Documents/GitHub/Learning_Lua/dependencies/lua/src/lcode.h">
+			<Option target="lua"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Documents/GitHub/Learning_Lua/dependencies/lua/src/lcorolib.c">
+			<Option target="lua"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Documents/GitHub/Learning_Lua/dependencies/lua/src/lctype.c">
+			<Option target="lua"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Documents/GitHub/Learning_Lua/dependencies/lua/src/lctype.h">
+			<Option target="lua"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Documents/GitHub/Learning_Lua/dependencies/lua/src/ldblib.c">
+			<Option target="lua"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Documents/GitHub/Learning_Lua/dependencies/lua/src/ldebug.c">
+			<Option target="lua"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Documents/GitHub/Learning_Lua/dependencies/lua/src/ldebug.h">
+			<Option target="lua"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Documents/GitHub/Learning_Lua/dependencies/lua/src/ldo.c">
+			<Option target="lua"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Documents/GitHub/Learning_Lua/dependencies/lua/src/ldo.h">
+			<Option target="lua"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Documents/GitHub/Learning_Lua/dependencies/lua/src/ldump.c">
+			<Option target="lua"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Documents/GitHub/Learning_Lua/dependencies/lua/src/lfunc.c">
+			<Option target="lua"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Documents/GitHub/Learning_Lua/dependencies/lua/src/lfunc.h">
+			<Option target="lua"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Documents/GitHub/Learning_Lua/dependencies/lua/src/lgc.c">
+			<Option target="lua"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Documents/GitHub/Learning_Lua/dependencies/lua/src/lgc.h">
+			<Option target="lua"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Documents/GitHub/Learning_Lua/dependencies/lua/src/linit.c">
+			<Option target="lua"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Documents/GitHub/Learning_Lua/dependencies/lua/src/liolib.c">
+			<Option target="lua"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Documents/GitHub/Learning_Lua/dependencies/lua/src/llex.c">
+			<Option target="lua"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Documents/GitHub/Learning_Lua/dependencies/lua/src/llex.h">
+			<Option target="lua"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Documents/GitHub/Learning_Lua/dependencies/lua/src/llimits.h">
+			<Option target="lua"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Documents/GitHub/Learning_Lua/dependencies/lua/src/lmathlib.c">
+			<Option target="lua"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Documents/GitHub/Learning_Lua/dependencies/lua/src/lmem.c">
+			<Option target="lua"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Documents/GitHub/Learning_Lua/dependencies/lua/src/lmem.h">
+			<Option target="lua"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Documents/GitHub/Learning_Lua/dependencies/lua/src/loadlib.c">
+			<Option target="lua"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Documents/GitHub/Learning_Lua/dependencies/lua/src/lobject.c">
+			<Option target="lua"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Documents/GitHub/Learning_Lua/dependencies/lua/src/lobject.h">
+			<Option target="lua"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Documents/GitHub/Learning_Lua/dependencies/lua/src/lopcodes.c">
+			<Option target="lua"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Documents/GitHub/Learning_Lua/dependencies/lua/src/lopcodes.h">
+			<Option target="lua"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Documents/GitHub/Learning_Lua/dependencies/lua/src/loslib.c">
+			<Option target="lua"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Documents/GitHub/Learning_Lua/dependencies/lua/src/lparser.c">
+			<Option target="lua"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Documents/GitHub/Learning_Lua/dependencies/lua/src/lparser.h">
+			<Option target="lua"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Documents/GitHub/Learning_Lua/dependencies/lua/src/lprefix.h">
+			<Option target="lua"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Documents/GitHub/Learning_Lua/dependencies/lua/src/lstate.c">
+			<Option target="lua"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Documents/GitHub/Learning_Lua/dependencies/lua/src/lstate.h">
+			<Option target="lua"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Documents/GitHub/Learning_Lua/dependencies/lua/src/lstring.c">
+			<Option target="lua"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Documents/GitHub/Learning_Lua/dependencies/lua/src/lstring.h">
+			<Option target="lua"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Documents/GitHub/Learning_Lua/dependencies/lua/src/lstrlib.c">
+			<Option target="lua"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Documents/GitHub/Learning_Lua/dependencies/lua/src/ltable.c">
+			<Option target="lua"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Documents/GitHub/Learning_Lua/dependencies/lua/src/ltable.h">
+			<Option target="lua"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Documents/GitHub/Learning_Lua/dependencies/lua/src/ltablib.c">
+			<Option target="lua"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Documents/GitHub/Learning_Lua/dependencies/lua/src/ltm.c">
+			<Option target="lua"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Documents/GitHub/Learning_Lua/dependencies/lua/src/ltm.h">
+			<Option target="lua"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Documents/GitHub/Learning_Lua/dependencies/lua/src/lua.c">
+			<Option target="lua"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Documents/GitHub/Learning_Lua/dependencies/lua/src/lua.h">
+			<Option target="lua"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Documents/GitHub/Learning_Lua/dependencies/lua/src/lua.hpp">
+			<Option target="lua"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Documents/GitHub/Learning_Lua/dependencies/lua/src/luac.c">
+			<Option target="lua"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Documents/GitHub/Learning_Lua/dependencies/lua/src/luaconf.h">
+			<Option target="lua"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Documents/GitHub/Learning_Lua/dependencies/lua/src/lualib.h">
+			<Option target="lua"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Documents/GitHub/Learning_Lua/dependencies/lua/src/lundump.c">
+			<Option target="lua"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Documents/GitHub/Learning_Lua/dependencies/lua/src/lundump.h">
+			<Option target="lua"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Documents/GitHub/Learning_Lua/dependencies/lua/src/lutf8lib.c">
+			<Option target="lua"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Documents/GitHub/Learning_Lua/dependencies/lua/src/lvm.c">
+			<Option target="lua"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Documents/GitHub/Learning_Lua/dependencies/lua/src/lvm.h">
+			<Option target="lua"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Documents/GitHub/Learning_Lua/dependencies/lua/src/lzio.c">
+			<Option target="lua"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Documents/GitHub/Learning_Lua/dependencies/lua/src/lzio.h">
+			<Option target="lua"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Documents/GitHub/Learning_Lua/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Documents/GitHub/Learning_Lua/dependencies/lua/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\dependencies\lua\src\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
