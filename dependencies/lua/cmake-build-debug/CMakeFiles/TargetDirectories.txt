@@ -1,0 +1,3 @@
+C:/Users/User/Documents/GitHub/Learning_Lua/dependencies/lua/cmake-build-debug/CMakeFiles/lua.dir
+C:/Users/User/Documents/GitHub/Learning_Lua/dependencies/lua/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/User/Documents/GitHub/Learning_Lua/dependencies/lua/cmake-build-debug/CMakeFiles/rebuild_cache.dir

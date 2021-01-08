@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
-    <generated />
+    <generated>
+      <config projectName="lua" targetName="lua" />
+    </generated>
   </component>
   <component name="CMakeSettings">
     <configurations>
@@ -10,10 +12,70 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="60a87aef-47b4-4a92-baf8-ca171dbe90ca" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../script.lua" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../scripting/Script.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../scripting/Script.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lapi.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/lapi.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lapi.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/lapi.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lauxlib.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/lauxlib.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lauxlib.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/lauxlib.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lbaselib.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/lbaselib.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lbitlib.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/lbitlib.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lcode.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/lcode.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lcode.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/lcode.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lcorolib.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/lcorolib.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lctype.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/lctype.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lctype.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/lctype.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ldblib.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/ldblib.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ldebug.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/ldebug.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ldebug.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/ldebug.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ldo.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/ldo.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ldo.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/ldo.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ldump.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/ldump.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lfunc.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/lfunc.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lfunc.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/lfunc.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lgc.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/lgc.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lgc.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/lgc.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linit.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/linit.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/liolib.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/liolib.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/llex.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/llex.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/llex.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/llex.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/llimits.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/llimits.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lmathlib.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/lmathlib.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lmem.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/lmem.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lmem.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/lmem.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loadlib.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/loadlib.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lobject.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/lobject.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lobject.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/lobject.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lopcodes.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/lopcodes.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lopcodes.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/lopcodes.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loslib.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/loslib.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lparser.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/lparser.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lparser.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/lparser.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lprefix.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/lprefix.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lstate.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/lstate.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lstate.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/lstate.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lstring.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/lstring.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lstring.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/lstring.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lstrlib.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/lstrlib.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ltable.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/ltable.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ltable.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/ltable.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ltablib.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/ltablib.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ltm.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/ltm.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ltm.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/ltm.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lua.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/lua.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lua.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/lua.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lua.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/lua.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/luac.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/luac.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/luaconf.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/luaconf.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lualib.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/lualib.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lundump.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/lundump.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lundump.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/lundump.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lutf8lib.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/lutf8lib.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lvm.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/lvm.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lvm.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/lvm.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lzio.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/lzio.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lzio.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/lzio.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +85,7 @@
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
   </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
@@ -40,6 +103,18 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../PrototypeEngine" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\User\Documents\GitHub\Learning_Lua\dependencies\lua\src" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="lua" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="lua" TARGET_NAME="lua" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="lua" RUN_TARGET_NAME="lua">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -53,6 +128,9 @@
       <workItem from="1591929144239" duration="16000" />
       <workItem from="1591929325774" duration="144000" />
       <workItem from="1591929484043" duration="12000" />
+      <workItem from="1604533093929" duration="23000" />
+      <workItem from="1604533207174" duration="6000" />
+      <workItem from="1604533306623" duration="12000" />
     </task>
     <servers />
   </component>
